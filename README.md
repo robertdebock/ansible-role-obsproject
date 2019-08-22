@@ -80,20 +80,29 @@ This role has been tested against the following distributions and Ansible versio
 |------------|-----------|-----------|-------------|
 |alpine-edge*|yes|yes|yes*|
 |alpine-latest|yes|yes|yes*|
-|archlinux|yes|yes|yes*|
+|archlinux|no|yes|yes*|
 |centos-6|yes|yes|yes*|
 |centos-latest|yes|yes|yes*|
 |debian-stable|yes|yes|yes*|
 |debian-unstable*|yes|yes|yes*|
 |fedora-latest|yes|yes|yes*|
 |fedora-rawhide*|yes|yes|yes*|
-|opensuse-leap|yes|yes|yes*|
+|opensuse-leap|no|no|no*|
 |ubuntu-devel*|yes|yes|yes*|
 |ubuntu-latest|yes|yes|yes*|
 |ubuntu-rolling|yes|yes|yes*|
 
 A single star means the build may fail, it's marked as an experimental build.
 
+Exceptions
+----------
+
+Some variarations of the build matrix do not work. These are the variations and reasons why the build won't work:
+
+| variation                 | reason                 |
+|---------------------------|------------------------|
+| openSUSE | Requires [much more efforts](https://obsproject.com/wiki/install-instructions#opensuse-installation-unofficial) than usual. |
+| Archlinux & Ansible 2.7 or lower | New-style module did not handle its own exit. |
 
 
 

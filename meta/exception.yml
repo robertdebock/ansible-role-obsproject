@@ -1,0 +1,6 @@
+---
+exceptions:
+  - variation: openSUSE
+    reason: "Requires [much more efforts](https://obsproject.com/wiki/install-instructions#opensuse-installation-unofficial) than usual."
+  - variation: Archlinux & Ansible 2.7 or lower
+    reason: New-style module did not handle its own exit.
