@@ -78,10 +78,10 @@ This role has been tested against the following distributions and Ansible versio
 
 |distribution|ansible 2.7|ansible 2.8|ansible devel|
 |------------|-----------|-----------|-------------|
-|alpine-edge*|yes|yes|yes*|
-|alpine-latest|yes|yes|yes*|
+|alpine-edge*|no|no|no*|
+|alpine-latest|no|no|no*|
 |archlinux|no|yes|yes*|
-|centos-6|yes|yes|yes*|
+|centos-6|no|no|no*|
 |centos-latest|yes|yes|yes*|
 |debian-stable|yes|yes|yes*|
 |debian-unstable*|yes|yes|yes*|
@@ -103,6 +103,8 @@ Some variarations of the build matrix do not work. These are the variations and 
 |---------------------------|------------------------|
 | openSUSE | Requires [much more efforts](https://obsproject.com/wiki/install-instructions#opensuse-installation-unofficial) than usual. |
 | Archlinux & Ansible 2.7 or lower | New-style module did not handle its own exit. |
+| Alpine | obs-studio (missing) |
+| CentOS 6 | No package matching 'obs-studio' found available |
 
 
 

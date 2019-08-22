@@ -4,3 +4,7 @@ exceptions:
     reason: "Requires [much more efforts](https://obsproject.com/wiki/install-instructions#opensuse-installation-unofficial) than usual."
   - variation: Archlinux & Ansible 2.7 or lower
     reason: New-style module did not handle its own exit.
+  - variation: Alpine
+    reason: obs-studio (missing)
+  - variation: CentOS 6
+    reason: No package matching 'obs-studio' found available
