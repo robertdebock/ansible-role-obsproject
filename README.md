@@ -111,7 +111,6 @@ Some variarations of the build matrix do not work. These are the variations and 
 | CentOS 6 | No package matching 'obs-studio' found available |
 
 
-
 Testing
 -------
 
