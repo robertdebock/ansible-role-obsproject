@@ -105,10 +105,10 @@ Some variarations of the build matrix do not work. These are the variations and 
 
 | variation                 | reason                 |
 |---------------------------|------------------------|
-| openSUSE | Requires [much more efforts](https://obsproject.com/wiki/install-instructions#opensuse-installation-unofficial) than usual. |
-| Archlinux & Ansible 2.7 or lower | New-style module did not handle its own exit. |
-| Alpine | obs-studio (missing) |
-| CentOS 6 | No package matching 'obs-studio' found available |
+| opensuse | Requires [much more efforts](https://obsproject.com/wiki/install-instructions#opensuse-installation-unofficial) than usual. |
+| alpine | obs-studio (missing) |
+| centos:latest | nothing provides libSDL2-2.0.so.0()(64bit) needed by ffmpeg-4.2.1-3.el8.x86_64 |
+| amazonlinux | Missing dependecies |
 
 
 Testing
