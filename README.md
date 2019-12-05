@@ -79,17 +79,11 @@ This role has been tested on these [container images](https://hub.docker.com/):
 
 |container|tag|allow_failures|
 |---------|---|--------------|
-|amazonlinux|1|no|
-|amazonlinux|latest|no|
-|alpine|latest|no|
-|alpine|edge|yes|
 |debian|unstable|yes|
 |debian|latest|no|
 |centos|7|no|
-|centos|latest|no|
 |fedora|latest|no|
 |fedora|rawhide|yes|
-|opensuse|latest|no|
 |ubuntu|latest|no|
 
 This role has been tested on these Ansible versions:
