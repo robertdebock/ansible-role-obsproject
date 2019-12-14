@@ -29,6 +29,5 @@ galaxy_info:
     - obsproject
     - archlinux
     - centos
-    - rhel
 
 dependencies: []
