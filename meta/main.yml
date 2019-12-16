@@ -27,7 +27,6 @@ galaxy_info:
 
   galaxy_tags:
     - obsproject
-    - archlinux
     - centos
 
 dependencies: []
