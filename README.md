@@ -94,7 +94,7 @@ This role has been tested on these [container images](https://hub.docker.com/):
 |---------|----|
 |debian|all|
 |el|7|
-|fedora|all|
+|fedora|30, 31|
 |ubuntu|bionic|
 
 The minimum version of Ansible required is 2.8 but tests have been done to:
@@ -114,6 +114,7 @@ Some variarations of the build matrix do not work. These are the variations and 
 | alpine | obs-studio (missing) |
 | centos:latest | nothing provides libSDL2-2.0.so.0()(64bit) needed by ffmpeg-4.2.1-3.el8.x86_64 |
 | amazonlinux | Missing dependecies |
+| fedora:rawhide | Failure downloading https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-33.noarch.rpm |
 
 
 Testing
