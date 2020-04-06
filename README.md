@@ -29,9 +29,9 @@ The machine may need to be prepared using `molecule/resources/prepare.yml`:
   gather_facts: no
 
   roles:
-    - robertdebock.bootstrap
-    - robertdebock.epel
-    - robertdebock.rpmfusion
+    - role: robertdebock.bootstrap
+    - role: robertdebock.epel
+    - role: robertdebock.rpmfusion
 ```
 
 For verification `molecule/resources/verify.yml` run after the role has been applied.
