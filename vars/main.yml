@@ -1,5 +1,6 @@
 ---
 # vars file for obsproject
+
 _obsproject_requirements:
   default: []
   Debian:
