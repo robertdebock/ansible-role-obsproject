@@ -4,14 +4,8 @@
   package:
     name: "{{ obsproject_requirements }}"
     state: present
-  register: obsproject_install_requirements
-  until: obsproject_install_requirements is succeeded
-  retries: 3
 
 - name: install obsproject
   package:
     name: "{{ obsproject_package }}"
     state: present
-  register: obsproject_install_obsproject
-  until: obsproject_install_obsproject is succeeded
-  retries: 3
