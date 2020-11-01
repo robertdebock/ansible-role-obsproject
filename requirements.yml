@@ -1,4 +1,5 @@
 ---
-- robertdebock.bootstrap
-- robertdebock.epel
-- robertdebock.rpmfusion
+roles:
+  - name: robertdebock.bootstrap
+  - name: robertdebock.epel
+  - name: robertdebock.rpmfusion
