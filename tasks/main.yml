@@ -1,5 +1,6 @@
 ---
 # tasks file for obsproject
+
 - name: install requirements
   package:
     name: "{{ obsproject_requirements }}"
