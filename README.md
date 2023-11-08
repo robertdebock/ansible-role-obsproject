@@ -2,9 +2,9 @@
 
 Install obsproject on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![github](https://github.com/robertdebock/ansible-role-obsproject/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-obsproject/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-obsproject/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-obsproject)|[![quality](https://img.shields.io/ansible/quality/42908)](https://galaxy.ansible.com/robertdebock/obsproject)|[![downloads](https://img.shields.io/ansible/role/d/42908)](https://galaxy.ansible.com/robertdebock/obsproject)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-obsproject.svg)](https://github.com/robertdebock/ansible-role-obsproject/releases/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/robertdebock/ansible-role-obsproject/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-obsproject/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-obsproject/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-obsproject)|[![downloads](https://img.shields.io/ansible/role/d/24555)](https://galaxy.ansible.com/robertdebock/obsproject)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-obsproject.svg)](https://github.com/robertdebock/ansible-role-obsproject/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -76,7 +76,7 @@ The minimum version of Ansible required is 2.12, tests have been done to:
 - The current version.
 - The development version.
 
-If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-obsproject/issues)
+If you find issues, please register them in [GitHub](https://github.com/robertdebock/ansible-role-obsproject/issues).
 
 ## [License](#license)
 
