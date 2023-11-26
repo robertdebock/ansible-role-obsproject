@@ -1,4 +1,4 @@
-# Ansible role [obsproject](#obsproject)
+# [Ansible role obsproject](#obsproject)
 
 Install obsproject on your system.
 
