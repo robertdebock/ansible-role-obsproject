@@ -18,7 +18,7 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   gather_facts: true
 
   roles:
-    - role: ansible-role-obsproject
+    - role: robertdebock.obsproject
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/robertdebock/ansible-role-obsproject/blob/master/molecule/default/prepare.yml):
@@ -70,11 +70,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/r
 |[Fedora](https://hub.docker.com/r/robertdebock/fedora)|all|
 |[Ubuntu](https://hub.docker.com/r/robertdebock/ubuntu)|all|
 
-The minimum version of Ansible required is 2.12, tests have been done on:
-
-- The previous version.
-- The current version.
-- The development version.
+The minimum version of Ansible (ansible-core) required is 2.20, tests are done with the latest release of ansible-core.
 
 If you find issues, please register them on [GitHub](https://github.com/robertdebock/ansible-role-obsproject/issues).
 
